@@ -4,14 +4,18 @@ import { ref } from 'vue';
 const name = "Joe";
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
-import RegisterForm from './components/RegisterForm.vue'
-
+import Pokedex from './completed/Pokedex.vue'
+import RegisterForm from './completed/RegisterForm.vue'
+import CarLoan from './components/CarLoan.vue'
 
 </script>
 
 <template>
   <Header />
-  <RegisterForm />
+  <!-- <RegisterForm /> -->
+  <CarLoan />
+   <!-- <Pokedex /> -->
+  
   <Footer />
   
 </template>
